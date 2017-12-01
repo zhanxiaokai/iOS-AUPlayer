@@ -10,11 +10,17 @@
 		18E9F5D91E4C781100853E4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F5D81E4C781100853E4E /* main.m */; };
 		18E9F5DC1E4C781100853E4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F5DB1E4C781100853E4E /* AppDelegate.m */; };
 		18E9F5DF1E4C781200853E4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F5DE1E4C781200853E4E /* ViewController.m */; };
-		18E9F5E21E4C781300853E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F5E01E4C781300853E4E /* Main.storyboard */; };
 		18E9F5E41E4C781300853E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F5E31E4C781300853E4E /* Assets.xcassets */; };
 		18E9F5E71E4C781300853E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F5E51E4C781300853E4E /* LaunchScreen.storyboard */; };
 		18E9F5F21E4C781300853E4E /* AUPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F5F11E4C781300853E4E /* AUPlayerTests.m */; };
 		18E9F5FD1E4C781300853E4E /* AUPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F5FC1E4C781300853E4E /* AUPlayerUITests.m */; };
+		18E9F60B1E4C78BE00853E4E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F60A1E4C78BE00853E4E /* ViewController.xib */; };
+		18E9F6111E4C7BF600853E4E /* MiAmor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F60D1E4C7BF600853E4E /* MiAmor.mp3 */; };
+		18E9F6121E4C7BF600853E4E /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F6101E4C7BF600853E4E /* CommonUtil.m */; };
+		18E9F6151E4C845A00853E4E /* AUGraphPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F6141E4C845A00853E4E /* AUGraphPlayer.m */; };
+		18E9F6281E4C8FB600853E4E /* AVAudioSession+RouteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F6251E4C8FB600853E4E /* AVAudioSession+RouteUtils.m */; };
+		18E9F6291E4C8FB600853E4E /* ELAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F6271E4C8FB600853E4E /* ELAudioSession.m */; };
+		3408774E1F71711100A48BC9 /* 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3408774D1F71711100A48BC9 /* 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +47,6 @@
 		18E9F5DB1E4C781100853E4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18E9F5DD1E4C781200853E4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18E9F5DE1E4C781200853E4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18E9F5E11E4C781300853E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E9F5E31E4C781300853E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E9F5E61E4C781300853E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E9F5E81E4C781300853E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,17 @@
 		18E9F5F81E4C781300853E4E /* AUPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E9F5FC1E4C781300853E4E /* AUPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUPlayerUITests.m; sourceTree = "<group>"; };
 		18E9F5FE1E4C781300853E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E9F60A1E4C78BE00853E4E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		18E9F60D1E4C7BF600853E4E /* MiAmor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MiAmor.mp3; sourceTree = "<group>"; };
+		18E9F60F1E4C7BF600853E4E /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		18E9F6101E4C7BF600853E4E /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		18E9F6131E4C845A00853E4E /* AUGraphPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUGraphPlayer.h; sourceTree = "<group>"; };
+		18E9F6141E4C845A00853E4E /* AUGraphPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUGraphPlayer.m; sourceTree = "<group>"; };
+		18E9F6241E4C8FB600853E4E /* AVAudioSession+RouteUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAudioSession+RouteUtils.h"; sourceTree = "<group>"; };
+		18E9F6251E4C8FB600853E4E /* AVAudioSession+RouteUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAudioSession+RouteUtils.m"; sourceTree = "<group>"; };
+		18E9F6261E4C8FB600853E4E /* ELAudioSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAudioSession.h; sourceTree = "<group>"; };
+		18E9F6271E4C8FB600853E4E /* ELAudioSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELAudioSession.m; sourceTree = "<group>"; };
+		3408774D1F71711100A48BC9 /* 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +117,19 @@
 		18E9F5D61E4C781100853E4E /* AUPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				18E9F62A1E4D7A2400853E4E /* AudioSession */,
+				18E9F6231E4C8F6700853E4E /* AUPlayer */,
+				18E9F60C1E4C7BF600853E4E /* resource */,
+				18E9F60E1E4C7BF600853E4E /* utils */,
 				18E9F5DA1E4C781100853E4E /* AppDelegate.h */,
 				18E9F5DB1E4C781100853E4E /* AppDelegate.m */,
 				18E9F5DD1E4C781200853E4E /* ViewController.h */,
 				18E9F5DE1E4C781200853E4E /* ViewController.m */,
-				18E9F5E01E4C781300853E4E /* Main.storyboard */,
 				18E9F5E31E4C781300853E4E /* Assets.xcassets */,
 				18E9F5E51E4C781300853E4E /* LaunchScreen.storyboard */,
 				18E9F5E81E4C781300853E4E /* Info.plist */,
 				18E9F5D71E4C781100853E4E /* Supporting Files */,
+				18E9F60A1E4C78BE00853E4E /* ViewController.xib */,
 			);
 			path = AUPlayer;
 			sourceTree = "<group>";
@@ -138,6 +158,44 @@
 				18E9F5FE1E4C781300853E4E /* Info.plist */,
 			);
 			path = AUPlayerUITests;
+			sourceTree = "<group>";
+		};
+		18E9F60C1E4C7BF600853E4E /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				3408774D1F71711100A48BC9 /* 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a */,
+				18E9F60D1E4C7BF600853E4E /* MiAmor.mp3 */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		18E9F60E1E4C7BF600853E4E /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				18E9F60F1E4C7BF600853E4E /* CommonUtil.h */,
+				18E9F6101E4C7BF600853E4E /* CommonUtil.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		18E9F6231E4C8F6700853E4E /* AUPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				18E9F6131E4C845A00853E4E /* AUGraphPlayer.h */,
+				18E9F6141E4C845A00853E4E /* AUGraphPlayer.m */,
+			);
+			name = AUPlayer;
+			sourceTree = "<group>";
+		};
+		18E9F62A1E4D7A2400853E4E /* AudioSession */ = {
+			isa = PBXGroup;
+			children = (
+				18E9F6241E4C8FB600853E4E /* AVAudioSession+RouteUtils.h */,
+				18E9F6251E4C8FB600853E4E /* AVAudioSession+RouteUtils.m */,
+				18E9F6261E4C8FB600853E4E /* ELAudioSession.h */,
+				18E9F6271E4C8FB600853E4E /* ELAudioSession.m */,
+			);
+			name = AudioSession;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +265,7 @@
 				TargetAttributes = {
 					18E9F5D31E4C781100853E4E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = MY5GTD35UJ;
+						DevelopmentTeam = U4BCBA6SZN;
 						ProvisioningStyle = Automatic;
 					};
 					18E9F5EC1E4C781300853E4E = {
@@ -250,8 +308,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E9F5E71E4C781300853E4E /* LaunchScreen.storyboard in Resources */,
+				18E9F6111E4C7BF600853E4E /* MiAmor.mp3 in Resources */,
+				18E9F60B1E4C78BE00853E4E /* ViewController.xib in Resources */,
 				18E9F5E41E4C781300853E4E /* Assets.xcassets in Resources */,
-				18E9F5E21E4C781300853E4E /* Main.storyboard in Resources */,
+				3408774E1F71711100A48BC9 /* 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +338,11 @@
 			files = (
 				18E9F5DF1E4C781200853E4E /* ViewController.m in Sources */,
 				18E9F5DC1E4C781100853E4E /* AppDelegate.m in Sources */,
+				18E9F6121E4C7BF600853E4E /* CommonUtil.m in Sources */,
 				18E9F5D91E4C781100853E4E /* main.m in Sources */,
+				18E9F6281E4C8FB600853E4E /* AVAudioSession+RouteUtils.m in Sources */,
+				18E9F6151E4C845A00853E4E /* AUGraphPlayer.m in Sources */,
+				18E9F6291E4C8FB600853E4E /* ELAudioSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +378,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18E9F5E01E4C781300853E4E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18E9F5E11E4C781300853E4E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18E9F5E51E4C781300853E4E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,10 +481,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				DEVELOPMENT_TEAM = U4BCBA6SZN;
 				INFOPLIST_FILE = AUPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audio.player.AUPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.audio.encoder.PhuketTour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,10 +494,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				DEVELOPMENT_TEAM = U4BCBA6SZN;
 				INFOPLIST_FILE = AUPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audio.player.AUPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.audio.encoder.PhuketTour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -514,6 +572,7 @@
 				18E9F6031E4C781300853E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E9F6041E4C781300853E4E /* Build configuration list for PBXNativeTarget "AUPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +581,7 @@
 				18E9F6061E4C781300853E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E9F6071E4C781300853E4E /* Build configuration list for PBXNativeTarget "AUPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +590,7 @@
 				18E9F6091E4C781300853E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
